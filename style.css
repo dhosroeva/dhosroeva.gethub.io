@@ -1,0 +1,63 @@
+@media screen and (orientation: portrait) and (min-width: 720px) {
+
+
+    .link-list {
+        order: 1;
+    }
+
+    .form {
+        order: 2;
+    }
+
+    .table {
+        order: 3;
+    }
+}
+
+header img {
+    float: left;
+}
+
+header {
+    background-color: rgb(124, 0, 212);
+    vertical-align: middle;
+}
+
+div.table, div.form, div.link-list {
+    background-color: rgb(255 106 0);
+}
+
+nav {
+    background-color: rgb(182 255 0);
+    text-align: center;
+    font-size: large;
+    padding: 15px;
+}
+
+header div {
+    vertical-align: central;
+}
+
+table th {
+    background-color: rgb(255 0 220);
+    font-size: large;
+}
+
+table tr:nth-child(2n) td {
+    background-color: rgb(124, 0, 212);
+}
+
+table tr:nth-child(2n+1) td {
+    background-color: rgb(124, 0, 212);
+}
+
+table, th, td {
+    border: 5px groove rgb(229, 255, 0);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(225 117 117);
+    color: rgb(88 115 208);
+}
